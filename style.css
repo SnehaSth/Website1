@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar Styles */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient( #642B73, #C6426E);
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    height: 40px;
+    padding-left: 20px;
+    font-family: serif;
+    color: #fff;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    text-align: left;
+}
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* Banner Styles */
+#banner {
+    background-image: linear-gradient( #C6426E,#642B73);
+    color: #fff;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.A1 {
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: 'Times New Roman';
+}
+
+.A2 {
+    font-weight: 500;
+    font-size: 2em;
+    font-family: 'Times New Roman';
+    margin-top: 0;
+}
+
+.A3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.A4 {
+    font-weight: 250;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.A5 {
+    color: #fff;
+    font-size: 1.2em;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.img-fluid {
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image maintains aspect ratio */
+}
+
+/* Cultures Section Styles */
+#cultures {
+    background-image: linear-gradient( #642B73, #C6426E);
+    padding-top: 5%;
+    color: #fff;
+    text-align: center;
+}
+
+.chd {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+.D1, .C1, .E1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+.D2, .C2, .E2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+.img-cultr, .img-belbiha, .img-dress {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px; /* Adjust the margin as needed */
+}
+
+/* Festivals Section Styles */
+#festivals {
+    padding: 80px 0;
+    background-image: linear-gradient( #C6426E,#642B73);
+    color: #fff;
+    text-align: center;
+}
+
+.festival-img, .indra-img, .gai-img {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.fst {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+/* Foods Section Styles */
+#foods {
+    padding: 80px 0;
+    background-image: linear-gradient( #642B73, #C6426E);
+    color: #fff;
+    text-align: center;
+}
+
+.bara, .yomari, .choila {
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    margin-top: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.fds {
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+/* Contact Section Styles */
+.input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: purple;
+    color: #fff;
+    align-items: center;
+    display: flex;
+}
+
+.icons {
+    text-align: center;
+    height: 30%;
+    color: red;
+    
+}
+
+.form-label {
+    color: red;
+}
+
+.footer {
+    position: fixed;
+    color: red;
+    align-items: center;
+}
